@@ -28,12 +28,12 @@ Future Letters is a unique time-capsule and memory-sharing mobile app that lets 
 - Android Studio / Xcode (for building standalone apps)
 
 ### Installation
-
+```
 git clone https://github.com/yourusername/future-letters.git
 cd future-letters
 npm install
 npx expo start
-
+```
 
 ### Firebase Setup
 
@@ -47,11 +47,11 @@ npx expo start
 * Use the **Expo Go** app for testing.
 * For full features (e.g., push notifications, AR, auth persistence), use a **development build**.
 
-
+```
 npx expo run:android
 # or
 npx expo run:ios
-
+```
 
 
 
