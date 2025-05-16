@@ -1,7 +1,7 @@
 
-# ✉️ Future Letters
+# ✉️ Future-Letters
 
-Future Letters is a unique time-capsule and memory-sharing mobile app that lets users send letters to their future selves or friends, unlock them at a specific time or place.
+Future-Letters is a unique time-capsule and memory-sharing mobile app that lets users send letters to their future selves or friends, unlock them at a specific time or place.
 
 ## 🌟 Features
 
@@ -16,7 +16,7 @@ Future Letters is a unique time-capsule and memory-sharing mobile app that lets 
 - **Firebase** – Authentication & Firestore
 - **Expo Location** – for GPS tracking
 - **Expo Notifications** – for push alerts
-- **Three.js + AR.js** (planned) – for immersive AR rendering
+
 
 ## 🚀 Getting Started
 
@@ -25,7 +25,7 @@ Future Letters is a unique time-capsule and memory-sharing mobile app that lets 
 - Node.js & npm
 - Expo CLI
 - Firebase Project configured
-- Android Studio / Xcode (for building standalone apps)
+
 
 ### Installation
 ```
