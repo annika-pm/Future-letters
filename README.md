@@ -58,9 +58,4 @@ npx expo run:ios
 
 🔮 Let your past speak when the future arrives.
 
-```
 
----
-
-Let me know if you’d like to auto-fill parts like your GitHub username, or want to include screenshots or a live demo link!
-```
