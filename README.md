@@ -1,50 +1,66 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# ✉️ Future Letters
 
-## Get started
+Future Letters is a unique time-capsule and memory-sharing mobile app that lets users send letters to their future selves or friends, unlock them at a specific time or place.
 
-1. Install dependencies
+## 🌟 Features
 
-   ```bash
-   npm install
-   ```
+- **Write to the Future**: Compose letters and set a future unlock date.
+- **Time & Location Lock**: Capsules can only be opened when the unlock date arrives **and** the user is physically at the GPS spot.
+- **Private & Shared Capsules**: Keep memories to yourself or share them with trusted friends.
+- **Push Notifications**: Get reminders when your capsule is about to unlock.
 
-2. Start the app
+## 📱 Tech Stack
 
-   ```bash
-    npx expo start
-   ```
+- **React Native** (with Expo)
+- **Firebase** – Authentication & Firestore
+- **Expo Location** – for GPS tracking
+- **Expo Notifications** – for push alerts
+- **Three.js + AR.js** (planned) – for immersive AR rendering
 
-In the output, you'll find options to open the app in a
+## 🚀 Getting Started
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+### Prerequisites
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+- Node.js & npm
+- Expo CLI
+- Firebase Project configured
+- Android Studio / Xcode (for building standalone apps)
 
-## Get a fresh project
+### Installation
 
-When you're ready, run:
+git clone https://github.com/yourusername/future-letters.git
+cd future-letters
+npm install
+npx expo start
 
-```bash
-npm run reset-project
+
+### Firebase Setup
+
+1. Create a Firebase project.
+2. Enable Email/Password authentication.
+3. Set up Firestore database.
+4. Replace the `firebaseConfig` in your project with your own Firebase credentials.
+
+### Running on Device
+
+* Use the **Expo Go** app for testing.
+* For full features (e.g., push notifications, AR, auth persistence), use a **development build**.
+
+
+npx expo run:android
+# or
+npx expo run:ios
+
+
+
+
+
+🔮 Let your past speak when the future arrives.
+
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Let me know if you’d like to auto-fill parts like your GitHub username, or want to include screenshots or a live demo link!
+```
