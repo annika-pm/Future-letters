@@ -1,4 +1,4 @@
-
+[![Watch the video](https://raw.githubusercontent.com/annika-pm/Future-letters/master/future-letters-demo-thumbnail.jpg)](https://raw.githubusercontent.com/annika-pm/Future-letters/master/future-letters-demo.mp4)
 # ✉️ Future-Letters
 
 Future-Letters is a unique time-capsule and memory-sharing mobile app that lets users send letters to their future selves or friends, unlock them at a specific time or place.
